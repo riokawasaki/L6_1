@@ -22,7 +22,7 @@ test:
 
 production:
   <<: *default
-  database: test_render_cbm5
-  username: test_render_cbm5_user
+  database: render_gklq 
+  username: render_gklq_user
   password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
   url: <%= ENV['DATABASE_URL'] %>
