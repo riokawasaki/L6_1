@@ -1,0 +1,11 @@
+<%= form_with model: @user do |f| %>
+  <p>
+    <%= f.label :uid, 'UID' %>
+    <%= f.text_field :uid %>
+  </p>
+  <p>
+    <%= f.label :pass, 'PASS' %>
+    <%= f.text_field :pass %>
+  </p>
+  <%= f.submit '登録' %>
+<% end %>
